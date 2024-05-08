@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Computer Networks 2023 Lab</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <marquee behavior="alternate" direction="right">
+            <h1 style="color: blue">Computer Networks 2023: Lab Project</h1>
+          </marquee>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h2 style="color: red">Tom Milchman and Yoav Amit</h2>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <h3>Here are two comics I made:</h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img id="comic1" width="60%" src="RanDom Comic 1.png" />
+        </td>
+        <td>
+          <img id="comic2" width="90%" src="Random Comic 2.png" />
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <h3>
+            <a
+              href="https://www.moodle.runi.ac.il/2024/course/view.php?id=2401572"
+              >Course Website</a
+            >
+          </h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <h3>
+            <a href="https://www.reddit.com">My favorite website</a>
+          </h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <h3>
+            ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          </h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2"></td>
+      </tr>
+    </table>
+
+    <form action="http://localhost:8080/params_info.html" method="post">
+      <label for="sender">Sender:</label>
+      <input type="text" id="sender" name="sender" /><br />
+
+      <label for="receiver">Receiver:</label>
+      <input type="text" id="receiver" name="receiver" /><br />
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br />
+
+      <label for="myCheckbox">Check me:</label>
+      <input type="checkbox" id="myCheckbox" name="myCheckbox" />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
